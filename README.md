@@ -10,9 +10,11 @@ Retrieved Pet: {"id":28041981,"name":"Fluffy","photoUrls":[],"tags":[],"status":
 Updated Pet: {"id":28041981,"name":"Fuzzy","photoUrls":[],"tags":[],"status":"available"}
 Deleted Pet: {"code":200,"type":"unknown","message":"28041981"}
 
-From command line:
-git clone https://github.com/systemteam7150/APIChaning.git
-cd APIChaning
-dotnet restore
-dotnet build
-dotnet run
+With Command line commands:
+
+1. Prerequisite: Install .NET 8 Runtime https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+2. git clone https://github.com/systemteam7150/APIChaning.git
+3. cd APIChaning
+4. dotnet restore
+5. dotnet build
+6. dotnet run
