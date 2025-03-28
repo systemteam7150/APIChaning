@@ -22,7 +22,7 @@ class Program
         Console.WriteLine($"Pet Created: {createResponse.Content}");
 
         // Add a short delay to allow Petstore to process creation
-        Thread.Sleep(2000);
+        Thread.Sleep(4000);
 
         // Retrieve the created pet
         var petId = petData.id;
